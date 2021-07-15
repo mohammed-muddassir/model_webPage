@@ -1,0 +1,89 @@
+<ul id='navlist' className={click?'show':''}>
+                                 <li className='navbar-menu'>
+                                        <Link to='/' className='navbar-menuitems'>Home</Link>
+                                 </li>
+                                 <li className='navbar-menu'>
+                                        <Link to='/' className='navbar-menuitems'>Projects</Link>
+                                 </li>
+                                 <li className='navbar-menu'>
+                                        <Link to='/' className='navbar-menuitems'>Contacts</Link>
+                                 </li>
+                                 <li className='navbar-menu'>
+                                        <Link to='/' className='navbar-menuitems'>About Us</Link>
+                                 </li>
+                                       
+                              </ul>
+
+
+                              <div className='nav-bar'>
+
+
+
+
+   <div  className="nav-bar">
+       <div className="navbar-container">
+            <div className="navbar-logo">
+                     <Link to='/' className='navbar-logo'><h3>Google</h3></Link>
+              </div>
+               <div className='menubar'>
+                        <i onClick={()=>setClick(!click)} className={click?"fas fa-times":'fa fa-bars'} id='nav-icon'></i>
+               </div>    
+            
+            <nav className="nav-hidden" >
+                
+                 <ul  className='as' id={click?'show':''}>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>Home</Link>
+                             </li>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>Projects</Link>
+                             </li>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>Contacts</Link>
+                             </li>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>About Us</Link>
+                             </li>
+                                   
+                          </ul>
+            </nav>
+            
+        </div>
+</div>
+
+
+        
+        <div>
+          <nav className="nav-bar">
+                <div className="navbar-container">
+                        <Link to='/' className='navbar-logo'><h3>Google</h3></Link>
+
+                        <div className='menubar'>
+                        <i onClick={()=>setClick(!click)} className={click?"fas fa-times":'fa fa-bars'} id='nav-icon'></i>
+                        </div>    
+                            
+                            <ul  className={click?'show':'hide'}>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>Home</Link>
+                             </li>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>Projects</Link>
+                             </li>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>Contacts</Link>
+                             </li>
+                             <li className='navbar-menu'>
+                                    <Link to='/' className='navbar-menuitems'>About Us</Link>
+                             </li>
+                                   
+                          </ul>
+                            
+                                
+                        
+                       
+                
+                
+                </div>
+              
+          </nav>   
+        </div>

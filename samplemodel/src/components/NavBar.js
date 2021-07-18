@@ -25,16 +25,16 @@ function NavBar() {
                 
                  <ul  className='as' id={click?'show':''}>
                              <li className='navbar-menu'>
-                                    <Link to='/home' className='navbar-menuitems'>Home</Link>
+                                    <Link to='/' className='navbar-menuitems'>Home</Link>
                              </li>
                              <li className='navbar-menu'>
-                                    <Link to='/Projects' className='navbar-menuitems'>Projects</Link>
+                                    <Link to='/products' className='navbar-menuitems'>Products</Link>
                              </li>
                              <li className='navbar-menu'>
-                                    <Link to='/Contacts' className='navbar-menuitems'>Contacts</Link>
+                                    <Link to='/services' className='navbar-menuitems'>Services</Link>
                              </li>
                              <li className='navbar-menu'>
-                                    <Link to='/About Us' className='navbar-menuitems'>About Us</Link>
+                                    <Link to='/about-us' className='navbar-menuitems'>About Us</Link>
                              </li>
                              {button&&<Button buttonStyle='btn-outline'>SIGN UP</Button>}      
                           </ul>

@@ -13,16 +13,17 @@
     padding: 8px 20px;
     border:1px solid #fff;
     margin-right:0.5rem;
-    margin-left:0.5rem
+    /* margin-left:0.5rem */
 }
 .btn-outline{
-    background-color: transparent;
-    color: #242424;
+    background-color:transparent;
+    color: rgb(87, 87, 78);
     padding: 8px 20px;
-    border:2px solid violet;
+    border:2px solid rgb(104, 68, 104);
     transition:all .25s ease-out;
     margin-right:0.5rem;
-    margin-left:0.5rem
+    margin-left:0.5rem;
+    font-weight: bold;
 }
 .btn-medium{
     padding: 8px 20px;

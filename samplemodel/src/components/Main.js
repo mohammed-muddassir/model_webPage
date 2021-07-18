@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
 import Cards from './Cards'
+import {Link} from 'react-router-dom'
 import './Button.css'
 import '../App.css'
 import './Main.css'
@@ -13,9 +14,11 @@ function Main() {
               <h1>Anime World</h1>
               <p>What makes you waiting, huh?</p>
               <div className='main-btn'>
-                   <Button buttonStyle='btn-outline' buttonSize='btn-medium'>
+               
+                   <Button  buttonStyle='btn-outline' buttonSize='btn-medium'>
                       Ikuzo
                    </Button>
+            
                    <Button buttonStyle='btn-primary' buttonSize='btn-medium'>
                       Watch vlogs <i className='far fa-play-circle'></i>
                    </Button>
